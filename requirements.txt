@@ -1,0 +1,13 @@
+# Diabetes Prediction System - Python dependencies
+# Python 3.9+ recommended
+
+# Data handling
+numpy>=2.0
+pandas>=2.2
+
+# Machine learning (SVM model; diabetes_model.sav was trained and pickled with 1.5.1)
+scikit-learn==1.5.1
+
+# Web app (Streamlit UI)
+streamlit>=1.35
+streamlit-option-menu>=0.3.12
